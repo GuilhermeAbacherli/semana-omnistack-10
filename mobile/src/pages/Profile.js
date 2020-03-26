@@ -1,10 +1,10 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React from "react";
+import {View, Text} from "react-native";
 
 const Profile = () => {
   return (
     <View>
-      <Text></Text>
+      <Text>Corpo da tela Profile.</Text>
     </View>
   );
 };

@@ -1,15 +1,13 @@
-import React from 'react';
-import {NavigationContainer} from '@react-navigation/native';
-import {StatusBar, SafeAreaView, StyleSheet} from 'react-native';
-import Routes from './src/routes';
+import React from "react";
+import {NavigationContainer} from "@react-navigation/native";
+import {StatusBar, SafeAreaView, StyleSheet} from "react-native";
+import Routes from "./src/routes";
 
 const App: () => React$Node = () => {
   return (
     <NavigationContainer>
-      <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <Routes />
-      </SafeAreaView>
+      <StatusBar barStyle="light-content" backgroundColor="#7D40E7" />
+      <Routes />
     </NavigationContainer>
   );
 };

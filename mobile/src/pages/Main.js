@@ -1,12 +1,8 @@
-import React from 'react';
-import {View, Text} from 'react-native';
+import React from "react";
+import MapView from "react-native-maps";
 
 const Main = () => {
-  return (
-    <View>
-      <Text></Text>
-    </View>
-  );
+  return <MapView style={{flex: 1}} />;
 };
 
 export default Main;
